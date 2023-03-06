@@ -15,8 +15,9 @@
         <h1>Hello World!</h1>
     <!--submit to the url action hello-->
         <form method="POST" action="hello">
-            First name: <input type="text" name="firstname"><br>
-            Last name: <input type="text" name="lastname"><br>
+        <!-- ADD value that what they have typed in -->
+            First name: <input type="text" name="firstname" value="${firstname}"><br>
+            Last name: <input type="text" name="lastname" value="${lastname}"><br>
             <input type ="submit" value="submit">
         </form>
     </body>
